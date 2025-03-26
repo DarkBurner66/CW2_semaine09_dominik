@@ -13,13 +13,25 @@
  }
 
 /* Exercice 03 */
-
+.exercice03 blockquote::first-letter{
+    color: red;
+    font-weight: bold;
+}
 
 /* Exercice 04 */
-
+.exercice04 ul + p{
+    color: red;
+}
 
 /* Exercice 05 */
-
+a[href^="https://"]::after {
+    content: "key";
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-size: 1.4rem;
+    line-height: 1;
+    margin-left: 5px;
+}
 
 /* Exercice 06 */
 
