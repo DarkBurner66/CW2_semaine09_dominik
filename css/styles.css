@@ -65,26 +65,46 @@ background: red;
 }
 
 /* Exercice 12 */
-
+.exercice12 > ul{
+    border: solid 3px red;
+}
 
 /* Exercice 13 */
-
+.exercice13 img[alt~="jpg"]{
+    border: solid 3px red;
+}
 
 /* Exercice 14 */
-
+nav a:hover{
+    background:#BF2A2A ;
+    border-bottom: solid 3px #000 ;
+    color: #000;
+}
 
 /* Exercice 15 */
-
-
+h2::selection{
+    background: #000;
+    color: #fff;
+}
+p::selection{
+    background: gray;
+    color: #fff;
+}
 /* Exercice 16 */
-
+.exercice16 p:not(p[lang="fr"]){
+    color: red;
+}
 
 /* Exercice 17 */
-
+input:checked + label{
+    color: red;
+}
 
 /* Exercice 18 */
 
-
+h1 .char:last-child{
+    color: #640101;
+}
 
 
 
