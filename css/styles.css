@@ -34,19 +34,30 @@ a[href^="https://"]::after {
 }
 
 /* Exercice 06 */
-
+.exercice06 li:nth-child(even) {
+    background: red;
+}
 
 /* Exercice 07 */
-
+.exercice07 li:nth-child(odd) {
+    background: red;
+}
 
 /* Exercice 08 */
-
+.exercice08 li:nth-child(-n + 3) {
+background: red;
+}
 
 /* Exercice 09 */
 
+.exercice09 li:nth-last-child(2) {
+    background: red;
+    }
 
 /* Exercice 10 */
-
+.exercice10 li:nth-child(n +14):nth-child(-n + 23) {
+    background: red;
+    }
 
 /* Exercice 11 */
 
